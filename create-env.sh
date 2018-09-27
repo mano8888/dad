@@ -2,7 +2,7 @@
 cont_count=$1
 echo "creating $cont_count containers.."
 sleep 2;
-for i in `seq $ 1 2 3`
+for i in `seq $cont_count`
 do
 	echo "=============================="
     echo "Creating www.bang$i container.."
